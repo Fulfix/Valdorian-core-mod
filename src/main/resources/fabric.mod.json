@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "valdorian-core-mode",
+	"version": "${version}",
+	"name": "Valdorian core mod",
+	"description": "This is the core mod of Valdorian",
+	"authors": [
+		"Trucbizard365"
+	],
+	"contact": {
+		"homepage": "https://valdorian.com/about-us",
+		"sources": "https://github.com/Trucbizar365/Valdorian-core-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/valdorian-core-mode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.trucbizard365.valdoriancoremod.ValdorianCoreMode"
+		],
+		"fabric-datagen": [
+			"net.trucbizard365.valdoriancoremod.ValdorianCoreModeDataGenerator"
+		],
+		"client": [
+			"net.trucbizard365.valdoriancoremod.ValdoriancoremodClient"
+		]
+	},
+	"mixins": [
+		"valdorian-core-mode.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
