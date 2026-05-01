@@ -13,5 +13,6 @@ public class ValdorianCoreMode implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties().stacksTo(128));
 	}
 }
