@@ -1,0 +1,18 @@
+package net.trucbizard365.valdoriancoremod.item;
+
+import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
+import net.trucbizard365.valdoriancoremod.ValdorianCoreMode;
+
+public class ModItems {
+    public static final Item Test = registerItem(new Item(new Item.Settings()));
+    private static Item registerItem(Item item) {
+        return Registry.register(Registries.ITEM, Identifier.of(ValdorianCoreMode.MOD_ID, "test"), item);
+    }
+    public static void registerModItems() {
+        ValdorianCoreMode.LOGGER.info("Registering Mod Items for " + ValdorianCoreMode.MOD_ID);
+    }
+
+}
