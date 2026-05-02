@@ -1,3 +1,6 @@
 {
-  "item.valdorian-core-mode.test": "Test"
+  "item.valdorian-core-mode.test": "Test",
+
+  "block.valdorian-core-mode.another_test_block": "Another test block",
+  "block.valdorian-core-mode.test_block" : "Test block"
 }

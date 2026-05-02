@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "valdorian-core-mode:block/test_block"
+    }
+  }
+}
