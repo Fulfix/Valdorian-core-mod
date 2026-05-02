@@ -11,7 +11,7 @@
 		"homepage": "https://valdorian.com/about-us",
 		"sources": "https://github.com/Trucbizar365/Valdorian-core-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPLv2",
 	"icon": "assets/valdorian-core-mode/icon.png",
 	"environment": "*",
 	"entrypoints": {
