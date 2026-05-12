@@ -1,8 +1,11 @@
 {
+
   "item.valdorian-core-mode.test": "Test",
+  "item.valdorian-core-mode.money": "Money",
 
   "block.valdorian-core-mode.another_test_block": "Another test block",
   "block.valdorian-core-mode.test_block" : "Test block",
+
   "itemgroup.valdoriancoremode.test_blocks": "Test blocks",
   "itemgroup.valdoriancoremode.test": "Test items"
 }
