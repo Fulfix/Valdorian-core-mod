@@ -7,5 +7,6 @@
   "block.valdorian-core-mode.test_block" : "Test block",
 
   "itemgroup.valdoriancoremode.test_blocks": "Test blocks",
-  "itemgroup.valdoriancoremode.test": "Test items"
+  "itemgroup.valdoriancoremode.test": "Test items",
+  "itemgroup.valdoriancoremode.valdorian_money_items": "Valdorian money"
 }

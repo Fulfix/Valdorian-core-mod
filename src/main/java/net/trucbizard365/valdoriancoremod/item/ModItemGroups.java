@@ -8,7 +8,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.trucbizard365.valdoriancoremod.ValdorianCoreMode;
-import net.trucbizard365.valdoriancoremod.ValdoriancoremodClient;
 import net.trucbizard365.valdoriancoremod.block.ModBlocks;
 
 public class ModItemGroups {
@@ -28,6 +27,15 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ANOTHER_TEST_BLOCK);
                         entries.add(ModBlocks.TEST_BLOCK);
+                    })
+                    .build());
+    public static final ItemGroup VADLDORIAN_MONEY_ITEMS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(ValdorianCoreMode.MOD_ID, "valdorian_test"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.Test))
+                    .icon(() -> new ItemStack(ModItems.MONEY))
+                    .displayName(Text.translatable("itemgroup.valdoriancoremode.valdorian_money_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MONEY);
                     })
                     .build());
 
