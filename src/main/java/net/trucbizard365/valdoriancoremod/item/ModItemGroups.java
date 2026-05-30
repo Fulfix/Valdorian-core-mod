@@ -10,6 +10,8 @@ import net.minecraft.util.Identifier;
 import net.trucbizard365.valdoriancoremod.ValdorianCoreMode;
 import net.trucbizard365.valdoriancoremod.block.ModBlocks;
 
+import static net.trucbizard365.valdoriancoremod.item.ModItems.JOB_APPLICATION;
+
 public class ModItemGroups {
 
     public static final ItemGroup VADLORIAN_TEST_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -18,6 +20,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.valdoriancoremode.test"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.Test);
+                        entries.add(JOB_APPLICATION);
+
                     })
                     .build());
     public static final ItemGroup VADLORIAN_TEST_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

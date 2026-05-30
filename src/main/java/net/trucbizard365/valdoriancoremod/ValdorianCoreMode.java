@@ -17,7 +17,7 @@ public class ValdorianCoreMode implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-		ModItems.registerModItems();
+		ModItems.initialize();
 		ModBlocks.registerModBlocks();
 	}
 }
