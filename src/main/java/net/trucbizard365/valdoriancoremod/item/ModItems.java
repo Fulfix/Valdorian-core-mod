@@ -17,6 +17,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(ValdorianCoreMode.MOD_ID, name), item);
     }
     public static void initialize() {
+        // vide pour chager la class en memoire tkt
     }
 
 
